@@ -1,0 +1,43 @@
+# Robots.txt для PRO100 ИНВЕНТРИЗАЦИЯ
+# Сайт: https://pro100invent.ru
+
+# Правила для всех поисковых роботов
+User-Agent: *
+Allow: /
+
+# Запрещаем индексацию служебных директорий
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /includes/
+Disallow: /search
+Disallow: /*?*
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.pdf$
+
+# Правила для Яндекса
+User-Agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Clean-Param: utm_source&utm_medium&utm_campaign
+Clean-Param: openstat&ref&yclid
+
+# Правила для Google
+User-Agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Указываем путь к карте сайта
+Sitemap: https://pro100invent.ru/sitemap.xml
+
+# Указываем главное зеркало сайта (для Яндекса)
+Host: https://pro100invent.ru
