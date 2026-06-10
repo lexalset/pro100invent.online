@@ -1,5 +1,5 @@
 # Robots.txt для PRO100 ИНВЕНТРИЗАЦИЯ
-# Сайт: https://pro100invent.ru
+# Сайт: https://pro100invent.online
 
 # Правила для всех поисковых роботов
 User-Agent: *
@@ -37,7 +37,7 @@ Disallow: /private/
 Disallow: /cgi-bin/
 
 # Указываем путь к карте сайта
-Sitemap: https://pro100invent.ru/sitemap.xml
+Sitemap: https://pro100invent.online/sitemap.xml
 
 # Указываем главное зеркало сайта (для Яндекса)
-Host: https://pro100invent.ru
+Host: https://pro100invent.online
